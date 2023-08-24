@@ -1,0 +1,121 @@
+*{
+    margin: 0%;
+    padding: 0%;
+} 
+.navbar{
+    background:#003049;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 4em;
+}
+.navbar ul {
+    margin-right: 160px;
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    font-size: larger;
+    font-weight: 400;
+    color: white;
+    padding: 3px ;
+}
+.logo{
+    position: absolute;
+    left: 5em;
+    color: rgb(251, 251, 251);   
+}
+.hero{
+    background: #003049;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5em;
+   
+}
+.hero-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 30%;
+    padding: 5%;
+    gap: 20px;
+  
+}
+.hero-card h1{
+    color: white;
+}
+.hero-card button{
+   height: 40px;
+   width: 100px;
+   border-radius: 20px;
+   border: solid white;
+   color:white;
+   background-color: #003049;
+}
+.hero-card p {
+    color: white;
+}
+.hero-img{
+    background-image: url("./img1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    margin-right: 10em;
+}
+.footer{
+    
+    background:#003049;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   padding: 1em;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.cards div{
+    border:none;
+    height: 14em;
+    width: 10em;
+    padding: 14px ;
+   padding-bottom: 5px ;
+   margin-bottom: 3em;
+}
+.footer h1{
+    font-size: x-large;
+    font-weight: 600;
+    color: white;
+}
+.footer h1 span{
+    color: yellow;
+}
+.cards img{
+    height: 50px;
+    width: 50px;
+}
+.card1{
+    background-color: #ff758f;
+}
+.card2 {
+    background-color: #ffbd00;
+}
+.card3{
+    background-color: #00b4d8;
+} 
+.card4{
+    background-color:#e5e5e5;
+}
